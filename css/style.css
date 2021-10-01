@@ -38,7 +38,7 @@ body {
     background-image: url("../img/jumbo-bg.png");
 }
 
-#jumbo_cards .card, #jumbo_cards img {
+#jumbo_cards .card, #jumbo_cards img, #new_releases .card img {
     border-radius: 20px;
 }
 
@@ -52,4 +52,11 @@ body {
 
 #ittakes {
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+}
+
+/* new releases */
+
+#new_releases {
+    background-color: black;
+    color: white;
 }
