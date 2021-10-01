@@ -18,6 +18,8 @@ body {
 
 /* main */
 
+/* jumbo */
+
 #jumbotron {
     margin-top: 98px;
     background-image: url("../img/jumbo-bg.png");
@@ -33,4 +35,10 @@ body {
 
 #jumbo_cards .card, #jumbo_cards img {
     border-radius: 20px;
+}
+
+/* ps5 */
+
+.blue_text {
+    color: rgb(27, 27, 255);
 }
