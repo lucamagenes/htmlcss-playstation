@@ -2,6 +2,19 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/* utilities */
+
+.jumbo {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.jumbo .container-fluid {
+    margin-top: 200px;
+}
+
 /* header */
 
 .site_header {
@@ -18,19 +31,11 @@ body {
 
 /* main */
 
-/* jumbo */
+/* returnal */
 
-#jumbotron {
+#returnal {
     margin-top: 98px;
     background-image: url("../img/jumbo-bg.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    color: white;
-}
-
-#jumbotron .container-fluid {
-    margin-top: 200px;
 }
 
 #jumbo_cards .card, #jumbo_cards img {
@@ -41,4 +46,10 @@ body {
 
 .blue_text {
     color: rgb(27, 27, 255);
+}
+
+/* it takes two */
+
+#ittakes {
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
 }
