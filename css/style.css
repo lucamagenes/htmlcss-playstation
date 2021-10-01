@@ -30,3 +30,7 @@ body {
 #jumbotron .container-fluid {
     margin-top: 200px;
 }
+
+#jumbo_cards .card, #jumbo_cards img {
+    border-radius: 20px;
+}
