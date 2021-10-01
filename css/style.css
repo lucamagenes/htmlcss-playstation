@@ -1,3 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* header */
+
 .site_header {
     background-color: black;
+}
+
+.bg_white {
+    background-color: white;
+}
+
+.nav-link {
+    color: black;
+}
+
+body {
+    background-color: turquoise;
 }
