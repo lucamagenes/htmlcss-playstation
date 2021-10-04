@@ -68,10 +68,10 @@ body {
 }
 
 @media screen and (max-width: 767.98px) {
-    #plus_img {
+    #plus_img, #now_img {
         display: none;
     }
-    #plus_text {
+    #plus_text, #now_text {
         padding: 40px 1.5rem;
     }
 }
@@ -82,4 +82,11 @@ body {
     #discount .col-12 {
         padding: 1.5rem;
     }
+}
+
+/* playstation now */
+
+#playstation_now {
+    background-color: darkblue;
+    color: white;
 }
