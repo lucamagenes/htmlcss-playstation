@@ -91,3 +91,18 @@ body {
     background-color: darkblue;
     color: white;
 }
+
+/* site footer */
+
+.site_footer {
+    background-color: blue;
+    color: white;
+    padding: 5rem 0;
+}
+
+@media screen and (max-width: 991.98px) {
+    .site_footer .link_footer {
+        margin-top: 3rem;
+        margin-left: 2rem;
+    }
+}
