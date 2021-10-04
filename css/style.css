@@ -6,7 +6,7 @@ body {
 
 .jumbo {
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center top;
     background-size: cover;
     color: white;
 }
@@ -59,4 +59,19 @@ body {
 #new_releases {
     background-color: black;
     color: white;
+}
+
+/* playstation plus */
+
+.bg_gray {
+    background-color: gray;
+}
+
+@media screen and (max-width: 767.98px) {
+    #plus_img {
+        display: none;
+    }
+    #plus_text {
+        padding: 40px 1.5rem;
+    }
 }
