@@ -40,6 +40,10 @@ body {
     box-shadow: 0px 0px 8px 2px #a8a9ab;
 }
 
+#navbarDropdown:focus, #navbarDropdown:hover {
+    color: #0372ce;
+}
+
 /* main */
 
 /* returnal */
