@@ -43,10 +43,15 @@ body {
     border-radius: 20px;
 }
 
+.btn_orange {
+    background-color: #cd3d0f;
+    color: white;
+}
+
 /* ps5 */
 
 .blue_text {
-    color: rgb(27, 27, 255);
+    color: #0372ce;
 }
 
 /* it takes two */
@@ -58,14 +63,19 @@ body {
 /* new releases */
 
 #new_releases {
-    background-color: black;
+    background-color: #202020;
     color: white;
 }
 
 /* playstation plus */
 
 .bg_gray {
-    background-color: gray;
+    background-color: #bebcbb;
+}
+
+.btn_plus {
+    background-color: #d9dadc;
+    color: #2d64e6;
 }
 
 @media screen and (max-width: 767.98px) {
@@ -88,14 +98,14 @@ body {
 /* playstation now */
 
 #playstation_now {
-    background-color: darkblue;
+    background-color: #161c3b;
     color: white;
 }
 
 /* site footer */
 
 .site_footer {
-    background-color: blue;
+    background-color: #02439c;
     color: white;
     padding: 5rem 0;
 }
