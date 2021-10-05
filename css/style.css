@@ -68,6 +68,14 @@ body {
     color: #0372ce;
 }
 
+.ps5_cards .opacity {
+    filter: opacity(0.5);
+}
+
+.ps5_cards .opacity:hover {
+    filter: opacity(1);
+}
+
 /* it takes two */
 
 #ittakes {
