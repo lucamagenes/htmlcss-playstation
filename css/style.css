@@ -82,6 +82,10 @@ body {
     color: white;
 }
 
+#jumbo_cards .card:hover {
+    transform: translateY(-0.25em);
+}
+
 /* ps5 */
 
 .blue_text {
