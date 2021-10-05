@@ -44,6 +44,26 @@ body {
     color: #0372ce;
 }
 
+.nav-link .chevron_hov {
+    display: none;
+}
+
+#navbarDropdown:hover .chevron, #navbarDropdown:focus .chevron {
+    display: none;
+}
+
+#navbarDropdown:hover .chevron_hov, #navbarDropdown:focus .chevron_hov {
+    display: inline-block;
+}
+
+#navbarDropdown:active .chevron_hov {
+    transform: rotate(180deg);
+}
+
+#navbarDropdown:focus .chevron_hov {
+    transform: rotate(180deg);
+}
+
 /* main */
 
 /* returnal */
